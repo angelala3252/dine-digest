@@ -1,0 +1,11 @@
+.incontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
