@@ -1,0 +1,31 @@
+header {
+    background-color: #ffffff;
+    min-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+}
+
+header a, header p {
+    color: #7743DB;
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header p {
+  color: #542e9a;
+}
+
+#left {
+    margin-left: 2.8rem;
+    font-weight: 800;
+    font-size: 2rem;
+ }
+
+ #right {
+    margin-right: 1.5rem;
+}
