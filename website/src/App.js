@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Layout from './components/Layout';
+import MealsHome from './pages/MealsHome';
+import DessertsHome from './pages/DessertsHome';
 
 function App() {
   return <BrowserRouter>
@@ -10,6 +12,8 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Navigate to="home" />} />
         <Route path='home' element={<Home />}/>
+        <Route path='meals-home' element={<MealsHome />} />
+        <Route path='desserts-home' element={<DessertsHome />} />
       </Route>
     </Routes>
   </BrowserRouter>;
