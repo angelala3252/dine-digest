@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://angelala3252.github.io/dine-digest",
+  "homepage": "https://angelala3252.github.io/dine-digest/#",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
