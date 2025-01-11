@@ -1,0 +1,58 @@
+.incontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 100vh;
+    gap: 1rem;
+    text-align: center;
+}
+
+.button {
+    border-radius: 12px;
+    background-color: #ebfff2;
+    border: 4px solid #29ff74;
+}
+
+.button:hover {
+    border-radius: 12px;
+    background-color: #29ff74;
+    border: 4px solid #ebfff2;
+}
+
+.button a {
+    color:#29ff74;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 1rem;
+}
+
+.button a:hover {
+    color: #ebfff2;
+    font-weight: bold;
+    padding: 1rem 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #ebfff2;
+}
+
+p {
+    color: #ebfff2;
+    font-weight: 600;
+}
+
+ul {
+    color: #ebfff2;
+    text-align: left;
+    font-weight: 600;
+}
