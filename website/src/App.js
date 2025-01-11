@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Layout from './components/Layout';
 import MealsHome from './pages/MealsHome';
 import DessertsHome from './pages/DessertsHome';
+import MealsCount from './pages/MealsCount';
+import DessertsCount from './pages/DessertsCount';
 
 function App() {
   return <BrowserRouter>
@@ -14,6 +16,8 @@ function App() {
         <Route path='home' element={<Home />}/>
         <Route path='meals-home' element={<MealsHome />} />
         <Route path='desserts-home' element={<DessertsHome />} />
+        <Route path='meals-count' element={<MealsCount />} />
+        <Route path='desserts-count' element={<DessertsCount />} />
       </Route>
     </Routes>
   </BrowserRouter>;
