@@ -7,7 +7,7 @@ const TopDessert = () => {
             <main>
                 <div className="incontainer">
                     <h1>Your top dessert was ... with ... visits!</h1>
-                    <Link to=''>Show me my recap!</Link>
+                    <Link to='/dessert-recap'>Show me my recap!</Link>
                 </div>
             </main>
         </>

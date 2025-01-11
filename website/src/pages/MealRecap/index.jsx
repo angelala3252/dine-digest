@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom';
 import '../shared.css';
 
-const TopRestaurant = () => {
+const MealRecap = () => {
     return (
         <>
             <main>
                 <div className="incontainer">
-                    <h1>Your top restaurant was ... with ... visits!</h1>
-                    <Link to='/meal-recap'>Show me my recap!</Link>
+                    <h1>Meal Recap</h1>
                 </div>
             </main>
         </>
     )
 };
 
-export default TopRestaurant;
+export default MealRecap;

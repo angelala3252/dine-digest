@@ -9,6 +9,8 @@ import MealsCount from './pages/MealsCount';
 import DessertsCount from './pages/DessertsCount';
 import TopRestaurant from './pages/TopRestaurant';
 import TopDessert from './pages/TopDessert';
+import MealRecap from './pages/MealRecap';
+import DessertRecap from './pages/DessertRecap';
 
 function App() {
   return <BrowserRouter>
@@ -22,6 +24,8 @@ function App() {
         <Route path='desserts-count' element={<DessertsCount />} />
         <Route path='top-restaurant' element={<TopRestaurant />} />
         <Route path='top-dessert' element={<TopDessert />} />
+        <Route path='meal-recap' element={<MealRecap />} />
+        <Route path='dessert-recap' element={<DessertRecap />} />
       </Route>
     </Routes>
   </BrowserRouter>;
