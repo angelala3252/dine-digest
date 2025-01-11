@@ -7,6 +7,8 @@ import MealsHome from './pages/MealsHome';
 import DessertsHome from './pages/DessertsHome';
 import MealsCount from './pages/MealsCount';
 import DessertsCount from './pages/DessertsCount';
+import TopRestaurant from './pages/TopRestaurant';
+import TopDessert from './pages/TopDessert';
 
 function App() {
   return <BrowserRouter>
@@ -18,6 +20,8 @@ function App() {
         <Route path='desserts-home' element={<DessertsHome />} />
         <Route path='meals-count' element={<MealsCount />} />
         <Route path='desserts-count' element={<DessertsCount />} />
+        <Route path='top-restaurant' element={<TopRestaurant />} />
+        <Route path='top-dessert' element={<TopDessert />} />
       </Route>
     </Routes>
   </BrowserRouter>;
