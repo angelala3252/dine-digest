@@ -11,7 +11,9 @@ const TopDessert = () => {
                         Honourable mentions include Nani's Gelato and Hitotoki 
                         Bakery, with 2 visits each!
                     </p>
-                    <Link to='/dessert-recap'>Show me my recap!</Link>
+                    <div className='button'>
+                        <Link to='/dessert-recap'>Show me my recap!</Link>
+                    </div>
                 </div>
             </main>
         </>

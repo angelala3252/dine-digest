@@ -8,7 +8,9 @@ const DessertsCount = () => {
                 <div className="incontainer">
                     <h1>You bought desserts 16 times in 2024.</h1>
                     <h2>Your top month was April with 4 desserts!</h2>
-                    <Link to='/top-dessert'>Let's take a look at your top dessert stores...</Link>
+                    <div className='button'>
+                        <Link to='/top-dessert'>Let's take a look at your top dessert stores...</Link>
+                    </div>
                 </div>
             </main>
         </>

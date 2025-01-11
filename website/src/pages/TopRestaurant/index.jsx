@@ -21,7 +21,9 @@ const TopRestaurant = () => {
                         <li>Bao House</li>
                         <li>Her Chef</li>
                     </ul>
-                    <Link to='/meal-recap'>Show me my recap!</Link>
+                    <div className='button'>
+                        <Link to='/meal-recap'>Show me my recap!</Link>
+                    </div>
                 </div>
             </main>
         </>
